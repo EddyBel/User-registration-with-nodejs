@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/card-login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="App">
+      <div class="animation-boobles">
+        <!-- .... boobles -->
+      </div>
+
+      <div class="container-card-form">
+        <div class="container-left-form">
+          <h1>Register with node js</h1>
+          <div class="decoration-description-left-form"></div>
+          <p>
+            Welcome to our example register page. This page is designed to
+            demonstrate how to use Node.js and MongoDB to create a secure and
+            reliable login page.
+          </p>
+        </div>
+        <div class="container-right-form">
+          <form action="" class="form">
+            <h1>Register Account</h1>
+            <p>
+              Enter your data to register an account, if you are already
+              registered you can <a href="./index.html">Login</a> with the link
+              shown below
+            </p>
+            <div class="container-input-form">
+              <label for="">What is your username ?</label>
+              <input type="text" placeholder="Enter your email" id="username" />
+              <label for="" class="error-message" id="error-username"></label>
+            </div>
+            <div class="container-input-form">
+              <label for="">What is your email ?</label>
+              <input type="email" placeholder="Enter your email" id="email" />
+              <label for="" class="error-message" id="error-email"></label>
+            </div>
+            <div class="container-input-form">
+              <label for="">What is your password ?</label>
+              <input
+                type="password"
+                placeholder="Enter your password"
+                id="password"
+              />
+              <label for="" class="error-message" id="error-password"></label>
+            </div>
+            <button class="button-send" id="send-login">
+              Log in to the web
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/web.config.js"></script>
+    <script src="./js/modelUser.js"></script>
+    <script src="./js/renderBoobles.js"></script>
+    <script src="./js/register.js"></script>
+  </body>
+</html>
